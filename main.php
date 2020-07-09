@@ -161,7 +161,7 @@
                                     <img src="img/testmonial/1.png" alt="">
                                 </div>
                                 <div class="test_content">
-                                    <h4>Jhon Walker</h4>
+                                    <h4>muhammad nur rochim</h4>
                                     <span>Head of web design</span>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerci.</p>
                                 </div>
@@ -173,7 +173,7 @@
                                     <img src="img/testmonial/1.png" alt="">
                                 </div>
                                 <div class="test_content">
-                                    <h4>Jhon Walker</h4>
+                                    <h4>Marcheila</h4>
                                     <span>Head of web design</span>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerci.</p>
                                 </div>
@@ -185,7 +185,19 @@
                                     <img src="img/testmonial/1.png" alt="">
                                 </div>
                                 <div class="test_content">
-                                    <h4>Jhon Walker</h4>
+                                    <h4>muhammad shena</h4>
+                                    <span>Head of web design</span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerci.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testmonial_wrap">
+                            <div class="single_testmonial d-flex align-items-center">
+                                <div class="test_thumb">
+                                    <img src="img/testmonial/1.png" alt="">
+                                </div>
+                                <div class="test_content">
+                                    <h4>mulia astriani</h4>
                                     <span>Head of web design</span>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerci.</p>
                                 </div>
