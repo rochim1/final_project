@@ -121,7 +121,7 @@
                                     <img src="img/adapt_icon/1.png" alt="">
                                     <div class="adapt_content">
                                         <h3 class="counter">452</h3>
-                                        <p>Pets Available</p>
+                                        <p>Total User</p>
                                     </div>
                                 </div>
                             </div>
@@ -130,14 +130,14 @@
                                     <img src="img/adapt_icon/3.png" alt="">
                                     <div class="adapt_content">
                                         <h3><span class="counter">52</span>+</h3>
-                                        <p>Pets Available</p>
+                                        <p>Total Petshop</p>
                                     </div>
                                 </div>
                                 <div class="single_adapt text-center">
                                     <img src="img/adapt_icon/2.png" alt="">
                                     <div class="adapt_content">
                                         <h3><span class="counter">52</span>+</h3>
-                                        <p>Pets Available</p>
+                                        <p>Help Pets today</p>
                                     </div>
                                 </div>
                             </div>

@@ -288,41 +288,6 @@ ul {
     box-sizing: border-box
 }
 
-html {
-    font-size: 10px;
-    -webkit-tap-highlight-color: transparent
-}
-
-body {
-    font-family: Averta-Regular, Avenir, Helvetica Neue, Calibri, Helvetica, Roboto, sans-serif;
-    font-size: 14px;
-    line-height: 1.6;
-    background-color: #fff
-}
-
-button,
-input {
-    font-family: inherit;
-    font-size: inherit
-}
-
-a {
-    color: #06748a;
-    text-decoration: none
-}
-
-a:focus,
-a:hover {
-    color: #033641;
-    text-decoration: underline
-}
-
-a:focus {
-    outline: thin dotted;
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px
-}
-
 img {
     vertical-align: middle
 }
