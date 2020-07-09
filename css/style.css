@@ -1318,6 +1318,9 @@ h3 {
   .header-area .header-top_area .short_contact_list ul li a {
     margin-left: 0;
     margin-right: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: inline-block;
   }
 }
 
