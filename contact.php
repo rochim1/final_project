@@ -1,4 +1,8 @@
-<div class="card bg-light mx-4 mb-4">
+<div class="container">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-9">
+            <div class="card bg-light mx-4 mb-4">
     <div class="card-body pt-0">
         <div class="row py-2 my-4">
             <div class="col-4 col-sm-4 col-md-3 col-lg-2 text-center">
@@ -60,6 +64,9 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
         </div>
     </div>
 </div>

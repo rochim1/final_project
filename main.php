@@ -25,7 +25,7 @@
             <div class="row justify-content-center ">
                 <div class="col-lg-7 col-md-10">
                     <div class="section_title text-center mb-95">
-                        <h3>Services for every dog</h3>
+                        <h3>Services for every pets</h3>
                         <p>Kami memberikan pelayanan yang terbaik untuk hewan peliharaan anda.</p>
                     </div>
                 </div>

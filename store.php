@@ -22,6 +22,36 @@ img {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+/* Rating Star Widgets Style */
+.rating-stars ul {
+  list-style-type:none;
+  padding:0;
+  
+  -moz-user-select:none;
+  -webkit-user-select:none;
+}
+.rating-stars ul > li.star {
+  display:inline-block;
+  
+}
+
+/* Idle State of the stars */
+.rating-stars ul > li.star > i.fa {
+  font-size:2.5em; /* Change the size of the stars */
+  color:#ccc; /* Color on idle state */
+}
+
+/* Hover state of the stars */
+.rating-stars ul > li.star.hover > i.fa {
+  color:#FFCC36;
+}
+
+/* Selected state of the stars */
+.rating-stars ul > li.star.selected > i.fa {
+  color:#FF912C;
+}
+
 </style>
 
 <link rel="stylesheet" href="review_card.css">
@@ -310,10 +340,34 @@ img {
 												<span class="input-group-text" id="inputGroup-sizing-default">Konsultasi Dokter</span>
 											</div>
 											<textarea class="form-control" aria-label="With textarea" style="height:150px"></textarea>
-										</div>
-										<button type="submit" class="btn btn-success btn-md float-right">
+                    </div>
+                    <div class="d-flex">
+                        <div class='rating-stars text-center mr-auto p-2'>
+                        <ul id='stars'>
+                          <li class='star' title='Poor' data-value='1'>
+                            <i class='fa fa-star fa-fw'></i>
+                          </li>
+                          <li class='star' title='Fair' data-value='2'>
+                            <i class='fa fa-star fa-fw'></i>
+                          </li>
+                          <li class='star' title='Good' data-value='3'>
+                            <i class='fa fa-star fa-fw'></i>
+                          </li>
+                          <li class='star' title='Excellent' data-value='4'>
+                            <i class='fa fa-star fa-fw'></i>
+                          </li>
+                          <li class='star' title='WOW!!!' data-value='5'>
+                            <i class='fa fa-star fa-fw'></i>
+                          </li>
+                        </ul>
+                      </div>  
+                      <div class="p-2">
+<button type="submit" class="btn btn-success btn-md float-right">
 											Kirim
 										</button>
+                      </div>
+										
+                    </div>
 									</form>
 								</div>
 							</div>
