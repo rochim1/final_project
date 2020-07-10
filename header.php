@@ -46,7 +46,7 @@
                                     <ul id="navigation">
                                         <li><a  href="index.php?halaman=home">home</a></li>
                                         <li><a href="index.php?halaman=about">about</a></li>
-                                        <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                        <!-- <li><a href="#">blog <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
                                                 <li><a href="index.php?halaman=blog">blog</a></li>
                                                 <li><a href="index.php?halaman=single-blog">single-blog</a></li>
@@ -57,7 +57,7 @@
                                                 <li><a href="index.php?halaman=elements">elements</a></li>
                                                 
                                             </ul>
-                                        </li>
+                                        </li> -->
                                         <li><a href="index.php?halaman=services">services</a></li>
                                         <li><a href="index.php?halaman=contact">Contact</a></li>
                                         <li><a href="index.php?halaman=login">Login</a></li>

@@ -46,6 +46,9 @@
     else if ($_GET['halaman']=="store") {
         include 'store.php';
     }
+    else if ($_GET['halaman']=="services") {
+        include 'services.php';
+    }
     else if ($_GET['halaman']=="login") {
         echo "<script>location='login/index.php';</script>";
     }
@@ -109,6 +112,23 @@
          format: 'HH.MM'
      });
     </script>
+      <script>
+// Render .item-template inside .render
+var itemContent = $('.item-render').html();
+var itemRenderer = $('.render');
+// Set the amount of items displayed with "itemCount" ex. 16 items
+var itemCount = 16;
+for(var i = 1; i <= itemCount; i++) {
+  itemRenderer.append(itemContent);
+}
+
+
+// Sidebar Icon Toggle
+$('.sidebar a').click(function(e){
+  e.preventDefault();
+  $(this).toggleClass('checked');
+});
+</script>
 </body>
 
 </html>
