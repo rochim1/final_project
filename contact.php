@@ -1,6 +1,35 @@
 <div class="container">
     <div class="row">
-        <div class="col-md-3"></div>
+        <div class="col-md-3">
+        <div class="sidebar filters">
+					<div class="block">
+						<h3 class="title">TYPE</h3>
+						<ul>
+							<li><a href="#" class="checked">Lorem del Ces</a></li>
+							<li><a href="#">Ispum ce Peupil</a></li>
+							<li><a href="#">Lorem del Ces</a></li>
+							<li><a href="#">Ispum ce Peupil</a></li>
+						</ul>
+					</div>
+					<div class="block">
+						<h3 class="title">Color</h3>
+						<ul>
+							<li><a href="#">Blue</a></li>
+							<li><a href="#" class="checked">Charcoal</a></li>
+							<li><a href="#">Green</a></li>
+							<li><a href="#">Red</a></li>
+						</ul>
+					</div>
+					<div class="block">
+						<h3 class="title">Size</h3>
+						<ul>
+							<li><a href="#">Petite</a></li>
+							<li><a href="#" class="checked">Medium</a></li>
+							<li><a href="#">Large</a></li>
+						</ul>
+					</div>
+				</div>
+        </div>
         <div class="col-md-9">
             <div class="card bg-light mx-4 mb-4">
     <div class="card-body pt-0">

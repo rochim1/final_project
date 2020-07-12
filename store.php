@@ -80,7 +80,7 @@ img {
 						</div>
 					</div>
 					<div class="action-btn">
-						<div class="back-btn"><i class="fas fa-arrow-circle-left"></i></div>
+						<div class="back-btn"><i class="fa fa-arrow-left"></i></div>
 					</div>
 				</div>
 				<div class="hero-img-container">
@@ -170,9 +170,9 @@ img {
 				<form role="form" class="search-form search-form-new js-search-form" action="/search/" method="GET">
 
 					<div class="pet-type-select">
-						<div class="heading">
-							service petshop kami
-						</div>
+						<h3 class="heading pt-3">
+							Our Services
+						</h3>
 						<div class="js-pet-type-selection-view">
 							<ul class="list-inline">
 								<li class="checkbox margin-top-x0 margin-bottom-x0">

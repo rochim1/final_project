@@ -106,8 +106,8 @@
                 <div class="col-lg-5">
                     <div class="adapt_help">
                         <div class="section_title">
-                            <h3><span>We need your</span>
-                                help Adopt Us</h3>
+                            <h3><span>let me help you</span>
+                                to give some love to your pets</h3>
                             <p>Hewan peliharaan yang lucu-lucu ini membutuhkan pertolongan kita.</p>
                             <a href="index.php?halaman=contact" class="boxed-btn3">Contact Us</a>
                         </div>
@@ -118,7 +118,7 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 col-md-6">
                                 <div class="single_adapt text-center">
-                                    <img src="img/adapt_icon/1.png" alt="">
+                                    <img src="img/adapt_icon/users.svg" alt="">
                                     <div class="adapt_content">
                                         <h3 class="counter">452</h3>
                                         <p>Total User</p>
@@ -127,14 +127,14 @@
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="single_adapt text-center">
-                                    <img src="img/adapt_icon/3.png" alt="">
+                                    <img src="img/adapt_icon/petshop1.svg" alt="">
                                     <div class="adapt_content">
                                         <h3><span class="counter">52</span>+</h3>
                                         <p>Total Petshop</p>
                                     </div>
                                 </div>
                                 <div class="single_adapt text-center">
-                                    <img src="img/adapt_icon/2.png" alt="">
+                                    <img src="img/adapt_icon/pets.svg" alt="">
                                     <div class="adapt_content">
                                         <h3><span class="counter">52</span>+</h3>
                                         <p>Help Pets today</p>
