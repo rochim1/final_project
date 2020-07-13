@@ -8,7 +8,7 @@
     overflow: hidden;
     position: relative;
     z-index: 2;
-    transform: scale(0.8);
+    /* transform: scale(0.8); */
     transform-origin: top center;
 }
 
@@ -133,6 +133,7 @@
 }
 
 .order-status-container {
+    font-size: 12px;
     z-index: 3;
     display: flex;
     width: 100%;
@@ -194,7 +195,8 @@
 .status-text span {
     display: block;
     text-align: center;
-    padding: 2px;
+    /* padding: 2px; */
+    /* font-size: 11px; */
 }
 
 .green {

@@ -1665,8 +1665,10 @@ h3 {
     position: absolute;
     right: 0;
     bottom: 0;
-    border-top: 15px solid #ffffff;
-    border-left: 15px solid #ffffff;
+    border-top: 15px solid
+ #ffffff;
+    border-left: 15px solid
+ #ffffff;
     top: auto;
     width: 50%;
     height: 60%;
@@ -1916,6 +1918,7 @@ h3 {
 /* line 29, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
 .service_area .single_service .service_thumb .service_icon img {
   width: auto;
+  height: 120px;
 }
 
 /* line 35, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */

@@ -35,7 +35,7 @@
                     <div class="single_service">
                          <div class="service_thumb service_icon_bg_1 d-flex align-items-center justify-content-center">
                              <div class="service_icon">
-                                 <img src="img/service/service_icon_1.png" alt="">
+                                 <img src="img/service/pet-boarding-01.svg" alt="">
                              </div>
                          </div>
                          <div class="service_content text-center">
@@ -48,7 +48,7 @@
                     <div class="single_service active">
                          <div class="service_thumb service_icon_bg_1 d-flex align-items-center justify-content-center">
                              <div class="service_icon">
-                                 <img src="img/service/service_icon_2.png" alt="">
+                                 <img src="img/service/service_icon_2.svg" alt="">
                              </div>
                          </div>
                          <div class="service_content text-center">
@@ -61,7 +61,7 @@
                     <div class="single_service">
                          <div class="service_thumb service_icon_bg_1 d-flex align-items-center justify-content-center">
                              <div class="service_icon">
-                                 <img src="img/service/service_icon_3.png" alt="">
+                                 <img src="img/service/shower_dog-01.svg" alt="">
                              </div>
                          </div>
                          <div class="service_content text-center">

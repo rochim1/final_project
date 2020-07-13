@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="search-store.css">
-<link rel="stylesheet" href="grid_product.css">
+
 <style>
 	/* Set the size of the div element that contains the map */
 	#map {
@@ -38,7 +38,7 @@ img {
 
 /* Idle State of the stars */
 .rating-stars ul > li.star > i.fa {
-  font-size:2.5em; /* Change the size of the stars */
+  font-size:1.5em; /* Change the size of the stars */
   color:#ccc; /* Color on idle state */
 }
 
@@ -87,25 +87,32 @@ img {
 					<div class="triangle1"></div>
 					<div class="arc"></div>
 					<div class="pattern"></div>
-					<img src="img/usaha.svg" class="hero-img">
+					<img src="img/store/petshop.jpg" class="hero-img">
 				</div>
 				<div class="order-status-container">
 					<div class="status-item first">
 						<div class="status-circle"></div>
 						<div class="status-text">
-							today
+							<span>
+								<i class="fa fa-calendar" aria-hidden="true"></i>
+							</span>
+							<span>daily open</span>
 						</div>
 					</div>
 					<div class="status-item second">
 						<div class="status-circle"></div>
-						<div class="status-text">
-							Shipped
-						</div>
+						<span>
+								<i class="fa fa-clock-o" aria-hidden="true"></i>
+						</span>
+							<span>08:00 - 20:00</span>
 					</div>
 					<div class="status-item">
 						<div class="status-circle"></div>
 						<div class="status-text green">
-							<span>Out</span><span>for delivery</span>
+							<span>
+								<i class="fa fa-star" aria-hidden="true"></i>
+						</span>
+							<span>9.3</span>
 						</div>
 					</div>
 					<div class="status-item">
@@ -451,15 +458,9 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAULEB33F4t4JxVXnjqJgvBkSM
 </div>
 </div>    
 </div>
-
-</div>
-
 <div class="row">
-	<div class="col-md-12">
-		
-		<div class="site">
-			<div class="wrapper">
-				<div class="sidebar filters">
+	<div class="col-md-3">
+	<div class="sidebar filters">
 					<div class="block">
 						<h3 class="title">TYPE</h3>
 						<ul>
@@ -487,6 +488,12 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAULEB33F4t4JxVXnjqJgvBkSM
 						</ul>
 					</div>
 				</div>
+	</div>
+	<div class="col-md-9">
+		
+		<div class="site">
+			<div class="wrapper">
+				
 				<!--  end .sidebar.filters  -->
 				<div class="product-grid">
 					<div class="hero">
@@ -515,7 +522,10 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAULEB33F4t4JxVXnjqJgvBkSM
 			</div>
 		</div>
 	</div>  
-</div>  
+</div>
+</div>
+
+  
 
 <script>
 	let drawer_open = false;
