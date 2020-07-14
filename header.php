@@ -59,8 +59,9 @@
                                             </ul>
                                         </li> -->
                                         <li><a href="index.php?halaman=services">services</a></li>
-                                        <li><a href="index.php?halaman=contact">Contact</a></li>
-                                        <li><a href="index.php?halaman=login">Login</a></li>
+                                        <li><a href="index.php?halaman=listpetshop">shop list</a></li>
+                                        <li><a href="index.php?halaman=contact">contact</a></li>
+                                        <li><a href="index.php?halaman=login">login</a></li>
                                     </ul>
                                 </nav>
                             </div>

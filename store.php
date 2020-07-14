@@ -1,56 +1,55 @@
 <link rel="stylesheet" href="search-store.css">
-
 <style>
 	/* Set the size of the div element that contains the map */
 	#map {
 		height: 400px;  /* The height is 400 pixels */
 		width: 100%;  /* The width is the width of the web page */
-  }
-  .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-img {
-    vertical-align: middle;
-}
-img {
-    border: 0;
-}
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
+	}
+	.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
+	img {
+		vertical-align: middle;
+	}
+	img {
+		border: 0;
+	}
+	* {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
 
-/* Rating Star Widgets Style */
-.rating-stars ul {
-  list-style-type:none;
-  padding:0;
-  
-  -moz-user-select:none;
-  -webkit-user-select:none;
-}
-.rating-stars ul > li.star {
-  display:inline-block;
-  
-}
+	/* Rating Star Widgets Style */
+	.rating-stars ul {
+		list-style-type:none;
+		padding:0;
+		
+		-moz-user-select:none;
+		-webkit-user-select:none;
+	}
+	.rating-stars ul > li.star {
+		display:inline-block;
+		
+	}
 
-/* Idle State of the stars */
-.rating-stars ul > li.star > i.fa {
-  font-size:1.5em; /* Change the size of the stars */
-  color:#ccc; /* Color on idle state */
-}
+	/* Idle State of the stars */
+	.rating-stars ul > li.star > i.fa {
+		font-size:1.5em; /* Change the size of the stars */
+		color:#ccc; /* Color on idle state */
+	}
 
-/* Hover state of the stars */
-.rating-stars ul > li.star.hover > i.fa {
-  color:#FFCC36;
-}
+	/* Hover state of the stars */
+	.rating-stars ul > li.star.hover > i.fa {
+		color:#FFCC36;
+	}
 
-/* Selected state of the stars */
-.rating-stars ul > li.star.selected > i.fa {
-  color:#FF912C;
-}
+	/* Selected state of the stars */
+	.rating-stars ul > li.star.selected > i.fa {
+		color:#FF912C;
+	}
 
 </style>
 
@@ -59,12 +58,19 @@ img {
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700" rel="stylesheet">
+<script src="js/vendor/jquery-2.1.3.min.js"></script>
+
 <script src="https://animejs.com/lib/anime.min.js"></script>
+
+<script src="https://unpkg.com/xzoom/dist/xzoom.min.js"></script>
+<script src="https://hammerjs.github.io/dist/hammer.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.min.jss"></script>
 
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-		</div>    
+			
+		</div>
 	</div>
 	<div class="row pt-5">
 		<div class="col-lg-4">
@@ -83,11 +89,19 @@ img {
 						<div class="back-btn"><i class="fa fa-arrow-left"></i></div>
 					</div>
 				</div>
-				<div class="hero-img-container">
-					<div class="triangle1"></div>
-					<div class="arc"></div>
-					<div class="pattern"></div>
-					<img src="img/store/petshop.jpg" class="hero-img">
+				<div class="hero-img-container align-content-center align-items-center">
+					<div class="large-5 column">
+						<img class="xzoom" id="xzoom-default" width="80%" height="265px" src="img/store/petshop.jpg" xoriginal="img/store/petshop.jpg" />
+						<div class="xzoom-thumbs mt-2">
+							<a href="img/store/petshop.jpg"><img class="xzoom-gallery" width="40" src="img/store/petshop.jpg"  xpreview="img/store/petshop.jpg" title="The description goes here"></a>
+							
+							<a href="img/store/store1.png"><img class="xzoom-gallery" width="40" src="img/store/store1.png" title="The description goes here"></a>
+							
+							<a href="img/store/store2.jpg"><img class="xzoom-gallery" width="40" src="img/store/store2.jpg" title="The description goes here"></a>
+							
+							<a href="img/store/store3.jpg"><img class="xzoom-gallery" width="40" src="img/store/store3.jpg" title="The description goes here"></a>
+						</div>      
+					</div>
 				</div>
 				<div class="order-status-container">
 					<div class="status-item first">
@@ -102,16 +116,16 @@ img {
 					<div class="status-item second">
 						<div class="status-circle"></div>
 						<span>
-								<i class="fa fa-clock-o" aria-hidden="true"></i>
+							<i class="fa fa-clock-o" aria-hidden="true"></i>
 						</span>
-							<span>08:00 - 20:00</span>
+						<span>08:00 - 20:00</span>
 					</div>
 					<div class="status-item">
 						<div class="status-circle"></div>
 						<div class="status-text green">
 							<span>
 								<i class="fa fa-star" aria-hidden="true"></i>
-						</span>
+							</span>
 							<span>9.3</span>
 						</div>
 					</div>
@@ -140,7 +154,7 @@ img {
 						<div class="product-container">
 							<div class="product">
 								<div class="product-photo">
-									<img src="https://s3.eu-central-1.amazonaws.com/sneakerjagers.com/products/396x396/92074.jpg" class="img-photo">
+									<img src="img/service/ex/unnamed.png" class="img-photo">
 								</div>
 								<div class="product-desc">
 									<span>Pets Spa</span>
@@ -148,7 +162,7 @@ img {
 								</div>
 							</div><div class="product">
 								<div class="product-photo">
-									<img src="https://s3.eu-central-1.amazonaws.com/sneakerjagers.com/products/396x396/77674.jpg" class="img-photo">
+									<img src="img/service/ex/spa.jpg" class="img-photo">
 								</div>
 								<div class="product-desc">
 									<span>Pets Hair Cut</span>
@@ -341,48 +355,54 @@ img {
 											</div>
 											<input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
 										</div>
-
-										<div class="input-group-sm mb-3">
-											<div class="input-group-prepend">
-												<span class="input-group-text" id="inputGroup-sizing-default">Konsultasi Dokter</span>
+										<div class="d-flex">
+											<div class='rating-stars text-center mr-auto p-2'>
+												<ul id='stars'>
+													<li class='star' title='Poor' data-value='1'>
+														<i class='fa fa-star fa-fw'></i>
+													</li>
+													<li class='star' title='Fair' data-value='2'>
+														<i class='fa fa-star fa-fw'></i>
+													</li>
+													<li class='star' title='Good' data-value='3'>
+														<i class='fa fa-star fa-fw'></i>
+													</li>
+													<li class='star' title='Excellent' data-value='4'>
+														<i class='fa fa-star fa-fw'></i>
+													</li>
+													<li class='star' title='WOW!!!' data-value='5'>
+														<i class='fa fa-star fa-fw'></i>
+													</li>
+												</ul>
+											</div>  
+											<div class="p-2">
+												<button type="submit" class="btn btn-success btn-md float-right">
+													Kirim
+												</button>
 											</div>
-											<textarea class="form-control" aria-label="With textarea" style="height:150px"></textarea>
-                    </div>
-                    <div class="d-flex">
-                        <div class='rating-stars text-center mr-auto p-2'>
-                        <ul id='stars'>
-                          <li class='star' title='Poor' data-value='1'>
-                            <i class='fa fa-star fa-fw'></i>
-                          </li>
-                          <li class='star' title='Fair' data-value='2'>
-                            <i class='fa fa-star fa-fw'></i>
-                          </li>
-                          <li class='star' title='Good' data-value='3'>
-                            <i class='fa fa-star fa-fw'></i>
-                          </li>
-                          <li class='star' title='Excellent' data-value='4'>
-                            <i class='fa fa-star fa-fw'></i>
-                          </li>
-                          <li class='star' title='WOW!!!' data-value='5'>
-                            <i class='fa fa-star fa-fw'></i>
-                          </li>
-                        </ul>
-                      </div>  
-                      <div class="p-2">
-<button type="submit" class="btn btn-success btn-md float-right">
-											Kirim
-										</button>
-                      </div>
-										
-                    </div>
-									</form>
+											</div>
+										</form>
+										<form>
+											<div class="input-group-sm mb-3">
+												<div class="input-group-prepend">
+													<span class="input-group-text" id="inputGroup-sizing-default">Konsultasi Dokter</span>
+												</div>
+												<textarea class="form-control" aria-label="With textarea" style="height:150px"></textarea>
+											</div>
+												
+												<div class="p-2 float-right">
+													<button type="submit" class="btn btn-success btn-md float-right">
+														Kirim
+													</button>
+												</div>
+										</form>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="tab-pane" id="tab2">
-						<div id="map"></div>
-						<script>
+						<div class="tab-pane" id="tab2">
+							<div id="map"></div>
+							<script>
 // Initialize and add the map
 function initMap() {
   // The location of Uluru
@@ -459,35 +479,41 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAULEB33F4t4JxVXnjqJgvBkSM
 </div>    
 </div>
 <div class="row">
+	<div class="col-md-9 offset-md-3">
+		<h3 class="heading pt-3 border-bottom">
+			Our Store
+		</h3>
+	</div>
+</div><div class="row mt-3">
 	<div class="col-md-3">
-	<div class="sidebar filters">
-					<div class="block">
-						<h3 class="title">TYPE</h3>
-						<ul>
-							<li><a href="#" class="checked">Lorem del Ces</a></li>
-							<li><a href="#">Ispum ce Peupil</a></li>
-							<li><a href="#">Lorem del Ces</a></li>
-							<li><a href="#">Ispum ce Peupil</a></li>
-						</ul>
-					</div>
-					<div class="block">
-						<h3 class="title">Color</h3>
-						<ul>
-							<li><a href="#">Blue</a></li>
-							<li><a href="#" class="checked">Charcoal</a></li>
-							<li><a href="#">Green</a></li>
-							<li><a href="#">Red</a></li>
-						</ul>
-					</div>
-					<div class="block">
-						<h3 class="title">Size</h3>
-						<ul>
-							<li><a href="#">Petite</a></li>
-							<li><a href="#" class="checked">Medium</a></li>
-							<li><a href="#">Large</a></li>
-						</ul>
-					</div>
-				</div>
+		<div class="sidebar filters">
+			<div class="block">
+				<h3 class="title">TYPE</h3>
+				<ul>
+					<li><a href="#" class="checked">Lorem del Ces</a></li>
+					<li><a href="#">Ispum ce Peupil</a></li>
+					<li><a href="#">Lorem del Ces</a></li>
+					<li><a href="#">Ispum ce Peupil</a></li>
+				</ul>
+			</div>
+			<div class="block">
+				<h3 class="title">Color</h3>
+				<ul>
+					<li><a href="#">Blue</a></li>
+					<li><a href="#" class="checked">Charcoal</a></li>
+					<li><a href="#">Green</a></li>
+					<li><a href="#">Red</a></li>
+				</ul>
+			</div>
+			<div class="block">
+				<h3 class="title">Size</h3>
+				<ul>
+					<li><a href="#">Petite</a></li>
+					<li><a href="#" class="checked">Medium</a></li>
+					<li><a href="#">Large</a></li>
+				</ul>
+			</div>
+		</div>
 	</div>
 	<div class="col-md-9">
 		
@@ -525,7 +551,7 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAULEB33F4t4JxVXnjqJgvBkSM
 </div>
 </div>
 
-  
+
 
 <script>
 	let drawer_open = false;
@@ -596,5 +622,157 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAULEB33F4t4JxVXnjqJgvBkSM
 		document.querySelector(".cta-button").style.display=param;
 		document.querySelector(".cta-text").style.display=param;
 	}
+
+	// mulai
+	(function ($) {
+		$(document).ready(function() {
+			$('.xzoom, .xzoom-gallery').xzoom({zoomWidth: 400, title: true, tint: '#333', Xoffset: 15});
+			$('.xzoom2, .xzoom-gallery2').xzoom({position: '#xzoom2-id', tint: '#ffa200'});
+			$('.xzoom3, .xzoom-gallery3').xzoom({position: 'lens', lensShape: 'circle', sourceClass: 'xzoom-hidden'});
+			$('.xzoom4, .xzoom-gallery4').xzoom({tint: '#006699', Xoffset: 15});
+			$('.xzoom5, .xzoom-gallery5').xzoom({tint: '#006699', Xoffset: 15});
+
+        //Integration with hammer.js
+        var isTouchSupported = 'ontouchstart' in window;
+
+        if (isTouchSupported) {
+            //If touch device
+            $('.xzoom, .xzoom2, .xzoom3, .xzoom4, .xzoom5').each(function(){
+            	var xzoom = $(this).data('xzoom');
+            	xzoom.eventunbind();
+            });
+            
+            $('.xzoom, .xzoom2, .xzoom3').each(function() {
+            	var xzoom = $(this).data('xzoom');
+            	$(this).hammer().on("tap", function(event) {
+            		event.pageX = event.gesture.center.pageX;
+            		event.pageY = event.gesture.center.pageY;
+            		var s = 1, ls;
+            		
+            		xzoom.eventmove = function(element) {
+            			element.hammer().on('drag', function(event) {
+            				event.pageX = event.gesture.center.pageX;
+            				event.pageY = event.gesture.center.pageY;
+            				xzoom.movezoom(event);
+            				event.gesture.preventDefault();
+            			});
+            		}
+            		
+            		xzoom.eventleave = function(element) {
+            			element.hammer().on('tap', function(event) {
+            				xzoom.closezoom();
+            			});
+            		}
+            		xzoom.openzoom(event);
+            	});
+            });
+
+            $('.xzoom4').each(function() {
+            	var xzoom = $(this).data('xzoom');
+            	$(this).hammer().on("tap", function(event) {
+            		event.pageX = event.gesture.center.pageX;
+            		event.pageY = event.gesture.center.pageY;
+            		var s = 1, ls;
+
+            		xzoom.eventmove = function(element) {
+            			element.hammer().on('drag', function(event) {
+            				event.pageX = event.gesture.center.pageX;
+            				event.pageY = event.gesture.center.pageY;
+            				xzoom.movezoom(event);
+            				event.gesture.preventDefault();
+            			});
+            		}
+
+            		var counter = 0;
+            		xzoom.eventclick = function(element) {
+            			element.hammer().on('tap', function() {
+            				counter++;
+            				if (counter == 1) setTimeout(openfancy,300);
+            				event.gesture.preventDefault();
+            			});
+            		}
+
+            		function openfancy() {
+            			if (counter == 2) {
+            				xzoom.closezoom();
+            				$.fancybox.open(xzoom.gallery().cgallery);
+            			} else {
+            				xzoom.closezoom();
+            			}
+            			counter = 0;
+            		}
+            		xzoom.openzoom(event);
+            	});
+            });
+            
+            $('.xzoom5').each(function() {
+            	var xzoom = $(this).data('xzoom');
+            	$(this).hammer().on("tap", function(event) {
+            		event.pageX = event.gesture.center.pageX;
+            		event.pageY = event.gesture.center.pageY;
+            		var s = 1, ls;
+
+            		xzoom.eventmove = function(element) {
+            			element.hammer().on('drag', function(event) {
+            				event.pageX = event.gesture.center.pageX;
+            				event.pageY = event.gesture.center.pageY;
+            				xzoom.movezoom(event);
+            				event.gesture.preventDefault();
+            			});
+            		}
+
+            		var counter = 0;
+            		xzoom.eventclick = function(element) {
+            			element.hammer().on('tap', function() {
+            				counter++;
+            				if (counter == 1) setTimeout(openmagnific,300);
+            				event.gesture.preventDefault();
+            			});
+            		}
+
+            		function openmagnific() {
+            			if (counter == 2) {
+            				xzoom.closezoom();
+            				var gallery = xzoom.gallery().cgallery;
+            				var i, images = new Array();
+            				for (i in gallery) {
+            					images[i] = {src: gallery[i]};
+            				}
+            				$.magnificPopup.open({items: images, type:'image', gallery: {enabled: true}});
+            			} else {
+            				xzoom.closezoom();
+            			}
+            			counter = 0;
+            		}
+            		xzoom.openzoom(event);
+            	});
+            });
+
+        } else {
+            //If not touch device
+
+            //Integration with fancybox plugin
+            $('#xzoom-fancy').bind('click', function(event) {
+            	var xzoom = $(this).data('xzoom');
+            	xzoom.closezoom();
+            	$.fancybox.open(xzoom.gallery().cgallery, {padding: 0, helpers: {overlay: {locked: false}}});
+            	event.preventDefault();
+            });
+            
+            //Integration with magnific popup plugin
+            $('#xzoom-magnific').bind('click', function(event) {
+            	var xzoom = $(this).data('xzoom');
+            	xzoom.closezoom();
+            	var gallery = xzoom.gallery().cgallery;
+            	var i, images = new Array();
+            	for (i in gallery) {
+            		images[i] = {src: gallery[i]};
+            	}
+            	$.magnificPopup.open({items: images, type:'image', gallery: {enabled: true}});
+            	event.preventDefault();
+            });
+        }
+    });
+})(jQuery);
 </script>
 

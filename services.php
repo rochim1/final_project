@@ -26,6 +26,7 @@
             
              <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6">
+                    <a href="index.php?halaman=boarding">
                     <div class="single_service">
                          <div class="service_thumb service_icon_bg_1 d-flex align-items-center justify-content-center">
                              <div class="service_icon">
@@ -37,8 +38,10 @@
                             <p>Boarding house yang nyaman untuk hewan peliharaan anda.</p>
                          </div>
                     </div>
+                    </a>
                 </div>
                 <div class="col-lg-4 col-md-6">
+                    <a href="index.php?halaman=HealtyMeals">
                     <div class="single_service active">
                          <div class="service_thumb service_icon_bg_1 d-flex align-items-center justify-content-center">
                              <div class="service_icon">
@@ -50,8 +53,10 @@
                             <p>Makanan yang sehat untuk hewan peliharaan anda.</p>
                          </div>
                     </div>
+                    </a>
                 </div>
                 <div class="col-lg-4 col-md-6">
+                    <a href="index.php?halaman=spa">
                     <div class="single_service">
                          <div class="service_thumb service_icon_bg_1 d-flex align-items-center justify-content-center">
                              <div class="service_icon">
@@ -63,11 +68,13 @@
                             <p>Layanan spa untuk para hewan peliharaan anda.</p>
                          </div>
                     </div>
+                    </a>
                 </div>
             </div>  
 
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6">
+                    <a href="index.php?halaman=grooming">
                     <div class="single_service">
                          <div class="service_thumb service_icon_bg_1 d-flex align-items-center justify-content-center">
                              <div class="service_icon">
@@ -79,8 +86,10 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
                          </div>
                     </div>
+                    </a>
                 </div>
                 <div class="col-lg-4 col-md-6">
+                    <a href="index.php?halaman=petvet">
                     <div class="single_service active">
                          <div class="service_thumb service_icon_bg_1 d-flex align-items-center justify-content-center">
                              <div class="service_icon">
@@ -92,8 +101,10 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
                          </div>
                     </div>
+                    </a>
                 </div>
                 <div class="col-lg-4 col-md-6">
+                    <a href="index.php?halaman=petshop">
                     <div class="single_service">
                          <div class="service_thumb service_icon_bg_1 d-flex align-items-center justify-content-center">
                              <div class="service_icon">

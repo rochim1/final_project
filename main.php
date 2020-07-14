@@ -26,12 +26,13 @@
                 <div class="col-lg-7 col-md-10">
                     <div class="section_title text-center mb-95">
                         <h3>Services for every pets</h3>
-                        <p>Kami memberikan pelayanan yang terbaik untuk hewan peliharaan anda.</p>
+                        <p>Kami memberikan pelayanan yang terbaik untuk hewan peliharaan anda. <a href="index.php?halaman=services">selengkapnya</a></p>
                     </div>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6">
+                    <a href="index.php?halaman=boarding">
                     <div class="single_service">
                          <div class="service_thumb service_icon_bg_1 d-flex align-items-center justify-content-center">
                              <div class="service_icon">
@@ -43,8 +44,10 @@
                             <p>Boarding house yang nyaman untuk hewan peliharaan anda.</p>
                          </div>
                     </div>
+                    </a>
                 </div>
                 <div class="col-lg-4 col-md-6">
+                    <a href="index.php?halaman=HealtyMeals">
                     <div class="single_service active">
                          <div class="service_thumb service_icon_bg_1 d-flex align-items-center justify-content-center">
                              <div class="service_icon">
@@ -56,8 +59,10 @@
                             <p>Makanan yang sehat untuk hewan peliharaan anda.</p>
                          </div>
                     </div>
+                    </a>
                 </div>
                 <div class="col-lg-4 col-md-6">
+                    <a href="index.php?halaman=spa">
                     <div class="single_service">
                          <div class="service_thumb service_icon_bg_1 d-flex align-items-center justify-content-center">
                              <div class="service_icon">
@@ -69,8 +74,9 @@
                             <p>Layanan spa untuk para hewan peliharaan anda.</p>
                          </div>
                     </div>
+                    </a>
                 </div>
-            </div>
+            </div>  
         </div>
     </div>
     <!-- service_area_end -->

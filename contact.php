@@ -1,101 +1,65 @@
+<link rel="stylesheet" href="css/contact.css">
 <div class="container">
+    <div class="jumbotron jumbotron-sm">
+  <div class="container">
     <div class="row">
-        <div class="col-md-3">
-        <div class="sidebar filters">
-					<div class="block">
-						<h3 class="title">TYPE</h3>
-						<ul>
-							<li><a href="#" class="checked">Lorem del Ces</a></li>
-							<li><a href="#">Ispum ce Peupil</a></li>
-							<li><a href="#">Lorem del Ces</a></li>
-							<li><a href="#">Ispum ce Peupil</a></li>
-						</ul>
-					</div>
-					<div class="block">
-						<h3 class="title">Color</h3>
-						<ul>
-							<li><a href="#">Blue</a></li>
-							<li><a href="#" class="checked">Charcoal</a></li>
-							<li><a href="#">Green</a></li>
-							<li><a href="#">Red</a></li>
-						</ul>
-					</div>
-					<div class="block">
-						<h3 class="title">Size</h3>
-						<ul>
-							<li><a href="#">Petite</a></li>
-							<li><a href="#" class="checked">Medium</a></li>
-							<li><a href="#">Large</a></li>
-						</ul>
-					</div>
-				</div>
-        </div>
-        <div class="col-md-9">
-            <div class="card bg-light mx-4 mb-4">
-    <div class="card-body pt-0">
-        <div class="row py-2 my-4">
-            <div class="col-4 col-sm-4 col-md-3 col-lg-2 text-center">
-                <img src="'assets/img/pet.jpg" alt="" class="img-circle img-fluid" width="150px">
-            </div>
-            <div class="col-8 col-sm-8 col-md-9 col-lg-8">
-                <h3><b>Petshop Afandi</b></h3>
-                <p class="text-muted text-sm">Jl. Afandi Jaya No.23 Demangan
-                </p>
-                <span class="fa fa-star" style="color: #cacd13;"></span>
-                <span class="fa fa-star" style="color: #cacd13;"></span>
-                <span class="fa fa-star" style="color: #cacd13;"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
-            </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-2">
-                <div class="row">
-                    <div class="col-lg-12 col-4 col-sm-4 mb-2">
-                        07:00-20:00 <i class="fa fa-clock right ml-3" style="font-size: 22px;"></i>
-                    </div>
-                    <div class="col-lg-12 col-4 col-sm-4 mb-3">
-                        Open daily <i class="fa fa-calendar-alt ml-4" style="font-size: 22px;"></i>
-                    </div>
-                    <div class="col-lg-6 col-4 col-sm-4">
-                        <button class="btn btn-info">Kunjungi</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+      <div class="col-sm-12 col-lg-12 header"></div>
     </div>
+  </div>
 </div>
-
-<div class="card bg-light mx-4 mb-4">
-    <div class="card-body pt-0">
-        <div class="row py-2 my-4">
-            <div class="col-4 col-sm-4 col-md-3 col-lg-2 text-center">
-                <img src="assets/img/pet.jpg" alt="" class="img-circle img-fluid" width="150px">
-            </div>
-            <div class="col-8 col-sm-8 col-md-9 col-lg-8">
-                <h3><b>Petshop Afandi</b></h3>
-                <p class="text-muted text-sm">Jl. Afandi Jaya No.23 Demangan
-                </p>
-                <span class="fa fa-star" style="color: #cacd13;"></span>
-                <span class="fa fa-star" style="color: #cacd13;"></span>
-                <span class="fa fa-star" style="color: #cacd13;"></span>
-                <span class="fa fa-star"></span>
-                <span class="fa fa-star"></span>
-            </div>
-            <div class="col-12 col-sm-12 col-md-12 col-lg-2">
-                <div class="row">
-                    <div class="col-lg-12 col-4 col-sm-4 mb-2">
-                        07:00-20:00 <i class="fa fa-clock right ml-3" style="font-size: 22px;"></i>
-                    </div>
-                    <div class="col-lg-12 col-4 col-sm-4 mb-3">
-                        Open daily <i class="fa fa-calendar-alt ml-4" style="font-size: 22px;"></i>
-                    </div>
-                    <div class="col-lg-6 col-4 col-sm-4">
-                        <button class="btn btn-info">Kunjungi</button>
-                    </div>
+<div class="container card">
+  <div class="row" style="z-index: 2;">
+    <div class="col-sm-12 col-lg-12">
+      <h1 class="h1">Contact Us <span class="fa fa-envelope"></span> <!--<small class="col-xs-12" style="padding-left: 0">We will get back to You</small>--></h1>
+    </div>
+  </div>
+  <div class="row" style="z-index: 2;">
+    <div class="col-sm-12 col-md-12">
+      <div class="cardStyle">
+        <form name="contact" id="form" data-toggle="validator">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="name">
+                  Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+              </div>
+              <div class="form-group">
+                <label for="email">
+                  Email Address</label>
+                <div class="input-group">
+                  <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                  </span>
+                  <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" />
                 </div>
+              </div>
+              <div class="form-group">
+                <label for="subject">
+                  Subject</label>
+                <select id="subject" name="subject" class="form-control" required="required">
+                  <option value="none" selected="" disabled>Choose One:</option>
+                  <option value="general">General Customer Service</option>
+                  <option value="collaborate">Collaborate with Us</option>
+                  <option value="bug">Found a Bug/Issue</option>
+                  <option value="other">Any other Queries</option>
+                </select>
+              </div>
             </div>
-        </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="name">
+                  Message</label>
+                <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required" placeholder="Message"></textarea>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <button type="submit" class="btn btn-success pull-right" id="btnContactUs">
+                Send Message</button>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
+  </div>
 </div>
-        </div>
-    </div>
 </div>

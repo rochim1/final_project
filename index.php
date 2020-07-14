@@ -14,6 +14,7 @@
 
     <!-- CSS here -->
     <link rel="stylesheet" href="grid_product.css">
+    <link rel="stylesheet" href="css/search.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -50,9 +51,40 @@
     else if ($_GET['halaman']=="services") {
         include 'services.php';
     }
+    else if ($_GET['halaman']=="listpetshop") {
+        include 'service/liststore.php';
+    }
+    else if ($_GET['halaman']=="listklinik") {
+        include 'service/petvet.php';
+    }
+    else if ($_GET['halaman']=="listgrooming") {
+        include 'service/petgrooming.php';
+    }
+    else if ($_GET['halaman']=="listpetspa") {
+        include 'service/petspa.php';
+    }
     else if ($_GET['halaman']=="login") {
         echo "<script>location='login/index.php';</script>";
     }
+    else if ($_GET['halaman']=="boarding") {
+        include 'menu/petboarding.php';
+    }
+        else if ($_GET['halaman']=="HealtyMeals") {
+        include 'menu/healtymeals.php';
+    }
+        else if ($_GET['halaman']=="spa") {
+        include 'menu/petspa.php';
+    }
+        else if ($_GET['halaman']=="grooming") {
+        include 'menu/petgrooming.php';
+    }
+    else if ($_GET['halaman']=="petvet") {
+        include 'menu/petvet.php';
+    }
+    else if ($_GET['halaman']=="petshop") {
+        include 'menu/petshop.php';
+    }
+    
     else
     {
         include 'main.php';
@@ -68,7 +100,7 @@
 
     <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/vendor/jquery-2.1.3.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
@@ -125,10 +157,11 @@ for(var i = 1; i <= itemCount; i++) {
 
 
 // Sidebar Icon Toggle
-$('.sidebar a').click(function(e){
-  e.preventDefault();
-  $(this).toggleClass('checked');
-});
+// $('.sidebar a').click(function(e){
+//   e.preventDefault();
+//   $(this).toggleClass('checked');
+// });
+
 $(document).ready(function(){
   
   /* 1. Visualizing things on Hover - See next part for action on click */
@@ -186,6 +219,7 @@ function responseMessage(msg) {
   $('.success-box').fadeIn(200);  
   $('.success-box div.text-message').html("<span>" + msg + "</span>");
 }
+
 </script>
 </body>
 

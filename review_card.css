@@ -2,12 +2,12 @@
     border-radius: 2rem;
     margin-top: 10px;
     background-color: #F4F4FB;
-    height: 750px;
+    height: 740px;
     width: 100%;
     box-shadow: 0 1px 5px -1px rgba(0, 0, 0, 0.3), inset 0 0 0 1px rgba(0, 0, 0, 0.15);
     overflow: hidden;
     position: relative;
-    z-index: 2;
+    /* z-index: 2; */
     /* transform: scale(0.8); */
     transform-origin: top center;
 }
@@ -70,23 +70,10 @@
 
 .hero-img-container {
     width: 100%;
-    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    padding-bottom: 20px;
-}
-
-.hero-img-container::before {
-    height: 20px;
-    width: 20px;
-    background-color: #f0281d;
-    position: absolute;
-    top: 25px;
-    right: 150px;
-    content: '';
-    border-radius: 50%;
 }
 
 .arc {
@@ -231,9 +218,10 @@
     z-index: 6;
     height: 900px;
     background-color: #fd6016;
-    border-top-right-radius: 50px;
-    border-top-left-radius: 50px;
-    padding-top: 20px;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    padding-top: 10px;
+    top: -20px;
     transform: translateY(-45px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     cursor: default;
@@ -311,7 +299,7 @@
 
 .product-container {
     background-color: #fd6f2d;
-    border-radius: 20px;
+    border-radius: 2rem;
     padding: 10px;
 }
 
@@ -346,7 +334,7 @@
 .cancellation {
     margin-top: 20px;
     background-color:#fd6f2d;
-    border-radius: 20px;
+    border-radius: 2rem;
     padding: 30px 20px;
     color: white;
     font-weight: bold;
@@ -363,10 +351,131 @@
 .shipping-address {
     margin-top: 20px;
     background-color:#fd6f2d;
-    border-radius: 20px;
+    border-radius: 2rem;
     padding: 20px 20px;
     color: white;
     font-weight: bold;
     margin-bottom: 20px;
+}
+#default {
+    text-align: center;
+}
 
+
+/* Compatibility styles for frameworks like bootstrap, foundation e.t.c */
+.xzoom-source img,
+.xzoom-preview img,
+.xzoom-lens img {
+    
+    display: block;
+    max-width: none;
+    max-height: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+/* --------------- */
+
+/* xZoom Styles below */
+.xzoom-container {
+    display: inline-block;
+}
+
+.xzoom-thumbs {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.xzoom {
+    position: relative;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.xzoom2,
+.xzoom3,
+.xzoom4,
+.xzoom5 {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* Thumbs */
+.xzoom-gallery,
+.xzoom-gallery2,
+.xzoom-gallery3,
+.xzoom-gallery4,
+.xzoom-gallery5 {
+    border: 1px solid #cecece;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.xzoom-source,
+.xzoom-hidden {
+    display: block;
+    position: static;
+    float: none;
+    clear: both;
+}
+
+/* Everything out of border is hidden */
+.xzoom-hidden {
+    overflow: hidden;
+}
+
+/* Preview */
+.xzoom-preview {
+    border: 1px solid #888;
+    background: #2f4f4f;
+    box-shadow: -0px -0px 10px rgba(0, 0, 0, 0.50);
+}
+
+/* Lens */
+.xzoom-lens {
+    border: 1px solid #555;
+    box-shadow: -0px -0px 10px rgba(0, 0, 0, 0.50);
+    cursor: crosshair;
+}
+
+/* Loading */
+.xzoom-loading {
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    opacity: .7;
+    background: url(../images/xloading.gif);
+    width: 48px;
+    height: 48px;
+}
+
+/* Additional class that applied to thumb when it is active */
+.xactive {
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(74, 169, 210, 1);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(74, 169, 210, 1);
+    box-shadow: 0px 0px 3px 0px rgba(74, 169, 210, 1);
+    border: 1px solid #4aaad2;
+}
+
+/* Caption */
+.xzoom-caption {
+    position: absolute;
+    bottom: -43px;
+    left: 0;
+    background: #000;
+    width: 100%;
+    text-align: left;
+}
+
+.xzoom-caption span {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: block;
+    font-size: 0.75em;
+    font-weight: bold;
+    padding: 10px;
 }
