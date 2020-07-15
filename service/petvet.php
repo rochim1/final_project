@@ -64,7 +64,7 @@
                         Open daily <i class="fa fa-calendar-alt ml-4" style="font-size: 22px;"></i>
                     </div>
                     <div class="col-lg-6 col-4 col-sm-4">
-                        <button class="btn btn-info">Kunjungi</button>
+                        <a class="btn btn-info" href="index.php?halaman=petvet">Kunjungi</a>
                     </div>
                 </div>
             </div>
@@ -97,7 +97,7 @@
                         Open daily <i class="fa fa-calendar-alt ml-4" style="font-size: 22px;"></i>
                     </div>
                     <div class="col-lg-6 col-4 col-sm-4">
-                        <button class="btn btn-info">Kunjungi</button>
+                        <a class="btn btn-info" href="index.php?halaman=petvet">Kunjungi</a>
                     </div>
                 </div>
             </div>

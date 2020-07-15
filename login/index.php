@@ -26,94 +26,7 @@
 <body>
 	
 	<div class="limiter">
-		<div class="container-login100" style="overflow-x : hidden;overflow-y:hidden">
-			<div class="wrap-login100 p-l-50 p-r-50 p-t-77 p-b-30 pos-absolute" style="right: -100%" id="sgn_up">
-				<form class="login100-form validate-form" action="../user.php">
-					<span class="login100-form-title p-b-55">
-						Sign Up
-					</span>
-
-					<div class="wrap-input100 m-b-16">
-						<input class="input100" type="text" name="nama" placeholder="Name">
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<span class="lnr lnr-user"></span>
-						</span>
-					</div>
-
-					<div class="wrap-input100 m-b-16">
-						<input class="input100" type="text" name="alamat" placeholder="Address">
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<span class="lnr lnr-location"></span>
-						</span>
-					</div>
-
-					<div class="wrap-input100 m-b-16">
-						<input class="input100" type="text" name="nomor" placeholder="No.Handphone">
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<span class="lnr lnr-phone"></span>
-						</span>
-					</div>
-
-					<div class="wrap-input100 m-b-16">
-						<input class="input100" type="text" name="email" placeholder="Email">
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<span class="lnr lnr-envelope"></span>
-						</span>
-					</div>
-
-					<div class="wrap-input100 m-b-16">
-						<input class="input100" type="password" name="pass" placeholder="New Password">
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<span class="lnr lnr-lock"></span>
-						</span>
-					</div>
-
-					<div class="wrap-input100 m-b-16">
-						<input class="input100" type="password" name="pass" placeholder="Re-type New Password">
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<span class="lnr lnr-lock"></span>
-						</span>
-					</div>
-					
-					<div class="container-login100-form-btn p-t-25">
-						<button class="login100-form-btn">
-							SIGN UP
-						</button>
-					</div>
-
-					<div class="text-center w-full p-t-42 p-b-22">
-						<span class="txt1">
-							Or Sign Up with
-						</span>
-					</div>
-
-					<a href="#" class="btn-face m-b-10">
-						<i class="fa fa-facebook-official"></i>
-						Facebook
-					</a>
-
-					<a href="#" class="btn-google m-b-10">
-						<img src="images/icons/icon-google.png" alt="GOOGLE">
-						Google
-					</a>
-
-					<div class="text-center w-full p-t-115">
-						<span class="txt1">
-							Already have an account?
-						</span>
-
-						<a class="txt1 bo1 hov1" href="#">
-							Sign In						
-						</a>
-					</div>
-				</form>
-			</div>
+		<div class="container-login100">
 			<div class="wrap-login100 p-l-50 p-r-50 p-t-77 p-b-30" id="sgn_in">
 				<form class="login100-form validate-form" action="../user.php">
 					<span class="login100-form-title p-b-55">
@@ -170,7 +83,7 @@
 							Not a member?
 						</span>
 
-						<a class="txt1 bo1 hov1" href="#" id="sign_up">
+						<a class="txt1 bo1 hov1" href="signup.php" id="sign_up">
 							Sign up now							
 						</a>
 						

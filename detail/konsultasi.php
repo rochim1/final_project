@@ -516,37 +516,93 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAULEB33F4t4JxVXnjqJgvBkSM
 		</div>
 	</div>
 	<div class="col-md-9">
-		
-		<div class="site">
-			<div class="wrapper">
-				
-				<!--  end .sidebar.filters  -->
-				<div class="product-grid">
-					<div class="hero">
-						<!--<h1>CATEGORY</h1> -->
-					</div>
-					<div class="item-render">
-						<div class="item item-template">
-							<a href="#">
-								<div class="product-image">
-									<img src="//placehold.it/300x300/eeeeee/eeeeee/&text=+" class="img-responsive" />
-								</div>
-								<div class="hidden actions">
-									<a href="#" class="quick-view" title="View Quick Details"><i class="fa fa-search"></i></a>
-								</div>
-								<div class="details">
-									<p class="name">Product Name</p>
-									<p class="price">$19.99</p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<!-- end .item -->
-					<div class="render"></div>
-				</div>
-				<!-- end .product-grid -->
-			</div>
-		</div>
+		<div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="https://i.postimg.cc/pdvcSwBL/1.jpg">
+                    </a>
+                    <span class="product-discount-label">-20%</span>
+                </div>
+                <div class="product-content">
+                    <h3 class="title">
+                        <a href="#">Men's Blazer</a>
+                    </h3>
+                    <div class="price">$16.00
+                        <span>$20.00</span>
+                    </div>
+                </div>
+                <ul class="social">
+                    <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                    <li><a href="" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                    <li><a href="" data-tip="add to cart"><i class="fa fa-shopping-cart"></i></a></li>
+                    <li><a href="" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="https://i.postimg.cc/KzBzYgMN/2.jpg">
+                    </a>
+                </div>
+                <div class="product-content">
+                    <h3 class="title">
+                        <a href="#">Women's Top</a>
+                    </h3>
+                    <div class="price">$17.50</div>
+                </div>
+                <ul class="social">
+                    <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                    <li><a href="" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                    <li><a href="" data-tip="add to cart"><i class="fa fa-shopping-cart"></i></a></li>
+                    <li><a href="" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                </ul>
+            </div>
+        </div><div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="https://i.postimg.cc/jjLVv0qn/3.jpg">
+                    </a>
+                </div>
+                <div class="product-content">
+                    <h3 class="title">
+                        <a href="#">Women's Top</a>
+                    </h3>
+                    <div class="price">$17.50</div>
+                </div>
+                <ul class="social">
+                    <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                    <li><a href="" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                    <li><a href="" data-tip="add to cart"><i class="fa fa-shopping-cart"></i></a></li>
+                    <li><a href="" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                </ul>
+            </div>
+        </div><div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="https://i.postimg.cc/6qHysxRJ/4.jpg">
+                    </a>
+                </div>
+                <div class="product-content">
+                    <h3 class="title">
+                        <a href="#">Women's Top</a>
+                    </h3>
+                    <div class="price">$17.50</div>
+                </div>
+                <ul class="social">
+                    <li><a href="" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                    <li><a href="" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                    <li><a href="" data-tip="add to cart"><i class="fa fa-shopping-cart"></i></a></li>
+                    <li><a href="" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                </ul>
+            </div>
+        </div>
+	</div>
 	</div>  
 </div>
 </div>

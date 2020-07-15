@@ -45,9 +45,22 @@
     else if ($_GET['halaman']=="contact") {
             include 'contact.php';
     }
-    else if ($_GET['halaman']=="store") {
-        include 'store.php';
+    else if ($_GET['halaman']=="konsultasi") {
+        include 'detail/konsultasi.php';
     }
+    else if ($_GET['halaman']=="petvet") {
+        include 'detail/detailklinik.php';
+    }
+    else if ($_GET['halaman']=="grooming") {
+        include 'detail/detailgrooming.php';
+    }
+    else if ($_GET['halaman']=="petshop") {
+        include 'detail/detailpetshop.php';
+    }
+
+
+
+    
     else if ($_GET['halaman']=="services") {
         include 'services.php';
     }
@@ -84,6 +97,9 @@
     else if ($_GET['halaman']=="petshop") {
         include 'menu/petshop.php';
     }
+    else if ($_GET['halaman']=="transaksi") {
+        include 'transaksi/transaksi_petshop.php';
+    }
     
     else
     {
@@ -117,6 +133,7 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/gijgo.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 
     <!--contact js-->
     <script src="js/contact.js"></script>
@@ -221,6 +238,47 @@ function responseMessage(msg) {
 }
 
 </script>
+<script>
+											(function ($) {
+  "use strict";
+  // Auto-scroll
+  $('#myCarousel').carousel({
+    interval: 5000
+  });
+
+  // Control buttons
+  $('.next').click(function () {
+    $('.carousel').carousel('next');
+    return false;
+  });
+  $('.prev').click(function () {
+    $('.carousel').carousel('prev');
+    return false;
+  });
+
+  // On carousel scroll
+  $("#myCarousel").on("slide.bs.carousel", function (e) {
+    var $e = $(e.relatedTarget);
+    var idx = $e.index();
+    var itemsPerSlide = 3;
+    var totalItems = $(".carousel-item").length;
+    if (idx >= totalItems - (itemsPerSlide - 1)) {
+      var it = itemsPerSlide -
+          (totalItems - idx);
+      for (var i = 0; i < it; i++) {
+        // append slides to end 
+        if (e.direction == "left") {
+          $(
+            ".carousel-item").eq(i).appendTo(".carousel-inner");
+        } else {
+          $(".carousel-item").eq(0).appendTo(".carousel-inner");
+        }
+      }
+    }
+  });
+})
+(jQuery);
+										</script>
 </body>
 
 </html>
